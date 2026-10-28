@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página personal</title>
+    <link rel="stylesheet" href="css/actividad.css">
+</head>
+<body>
+
+    <!-- encabezado -->
+    <header>
+        <h1>Bienvenido a mi página</h1>
+    </header>
+
+    <!-- presentación -->
+    <div class="presentacion">
+        <h2>Saray Salomé Ramírez Álvarez</h2>
+
+        <p>
+            Hola, me llamo Salomé, tengo 17 años y vivo en Machado,
+            Copacabana. Vivo con mi hermana menor, mi mamá y mi padrastro.
+            Tengo 4 gatos, estudio Análisis y Desarrollo de Software
+            en el SENA y en mis tiempos libres juego fútbol.
+        </p>
+    </div>
+
+    <!-- adivinar el número-->
+    <div class="adivina">
+        <h2>Adivina mi número favorito</h2>
+
+        <p>Escribe un número:</p>
+
+        <input type="number" id="numero" placeholder="Ingresa un número">
+
+        <p id="mensaje"></p>
+    </div>
+
+    <!--cosas fav -->
+    <div class="selector">
+        <h2>Mis cosas favoritas</h2>
+
+        <select id="opciones">
+            <option value="">Selecciona una opción</option>
+            <option value="futbol">Fútbol</option>
+            <option value="dibujar">Dibujar</option>
+            <option value="leer">Leer</option>
+        </select>
+
+        <div class="contenido-fav">
+            <img id="imagen"
+            src="https://www.harvard-deusto.com/sites/default/files/styles/article_front/public/2021-08/pensamiento-lateral.jpg?itok=r5o9IZV4">
+
+            <p id="descripcion">
+                Selecciona una opción para conocer mis gustos.
+            </p>
+        </div>
+    </div>
+
+    <!-- alerta-->
+    <div class="saludo">
+        <button id="boton-saludo">Presiona</button>
+    </div>
+
+    <!-- pie de página-->
+    <div class="footer">
+        <p>Gracias por visitar mi página</p>
+    </div>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
